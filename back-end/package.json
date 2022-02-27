@@ -1,0 +1,32 @@
+{
+  "name": "personal-manager-back-end",
+  "version": "1.0.0",
+  "description": "This is training project with MEVN TEAM the best for beginner",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=staging& nodemon ./src/server.js",
+    "start:staging": "set NODE_ENV=staging& nodemon ./src/server.js",
+    "start:local": "set NODE_ENV=local& nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MEVN",
+    "NodeJS",
+    "Express"
+  ],
+  "author": "Quyen Dang",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
